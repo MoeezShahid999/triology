@@ -16,3 +16,6 @@
     width: 110%;
   }
 }
+.navbar-heading {
+  text-transform: none !important;
+}
