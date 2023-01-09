@@ -119,12 +119,12 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>Registration</h3>
               <p>
                 <span>
-                <i class="fas fa-registered"></i> Registration
+                <i class="fa fa-registered"></i> 
                 </span>
-                {props.data ? props.data.address : "loading"}
+                {props.data ? props.data.registration : "loading"}
               </p>
             </div>
             <div className="contact-item">
