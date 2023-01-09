@@ -121,7 +121,12 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i class="fa fa-sharp fa-solid fa-registered"></i> Registration{" "}
+                  <img
+                    src="../../static/registration.png"
+                    width={"8.5px"}
+                    height="15px"
+                  />{" "}
+                  Registration{" "}
                 </span>
                 {props.data ? props.data.registration : "loading"}
               </p>
