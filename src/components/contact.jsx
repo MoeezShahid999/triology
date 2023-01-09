@@ -119,10 +119,9 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <h3>Registration</h3>
               <p>
                 <span>
-                <i class="fa fa-registered"></i> 
+                  <i class="fa-solid fa-registered"></i>{" "}
                 </span>
                 {props.data ? props.data.registration : "loading"}
               </p>
