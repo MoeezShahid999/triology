@@ -1,5 +1,6 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import Registration from '../static/registration.png'
 require("dotenv").config();
 
 console.log(process.env);
@@ -122,7 +123,7 @@ export const Contact = (props) => {
               <p>
                 <span>
                   <img
-                    src="../../static/registration.png"
+                    src={Registration}
                     width={"8.5px"}
                     height="15px"
                   />{" "}
